@@ -33,7 +33,7 @@ class twentyfour_points():
                 return False
             if math.isclose(calculation,24,rel_tol=1e-4):
                 # print("one possible solution is:", expression)
-                self.solution='one possile solution is: '+expression
+                self.solution='one possible solution is: '+expression
                 return True
         return False
 
